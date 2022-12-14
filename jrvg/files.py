@@ -17,7 +17,7 @@ def _load_txt(filename: str):
         return f.read()
 
 
-def load_file(filename: str):
+def load(filename: str):
     suffix = filename.split('.')[-1]
     match suffix:
         case 'json':
