@@ -27,4 +27,4 @@ def load(filename: str):
         case 'txt':
             _load_txt(filename)
         case other:
-            raise ValueError(f'Files ending with {other} not supported')
+            raise ValueError(f'File extension `{other}` not supported')
