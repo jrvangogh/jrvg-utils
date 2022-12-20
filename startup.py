@@ -5,4 +5,3 @@ import jrvg as j
 
 
 print(f"Working Dir: {Path.cwd()}")
-
